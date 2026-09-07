@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahaara - AI Welfare Platform for Uniformed Forces</title>
+    <title>SAATHI - AI Welfare Intelligence Platform</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -13,13 +13,13 @@
         <div class="container">
             <div class="logo">
                 <i class="fas fa-shield-heart"></i>
-                <span>Sahaara</span>
+                <span>SAATHI</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#technology">Technology</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#why">Why SAATHI</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -33,11 +33,26 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Sahaara AI Welfare Platform</h1>
-            <p>AI-Based Predictive Personnel Stress and Welfare Monitoring System for Uniformed Forces</p>
+            <h1>SAATHI</h1>
+            <p class="tagline">Early Support. Better Welfare. Stronger Readiness.</p>
+            <p class="description">AI-Powered Personnel Stress & Welfare Intelligence Platform for Uniformed Forces</p>
             <div class="hero-buttons">
-                <button class="btn btn-primary" onclick="scrollToSection('features')">Learn More</button>
-                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Get Started</button>
+                <button class="btn btn-primary" onclick="scrollToSection('features')">Explore Features</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('modules')">View Modules</button>
+            </div>
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <i class="fas fa-lock"></i>
+                    <span>Privacy First</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-brain"></i>
+                    <span>Explainable AI</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-heart"></i>
+                    <span>Welfare Focused</span>
+                </div>
             </div>
         </div>
         <div class="hero-image">
@@ -52,102 +67,176 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI-Powered Prediction</h3>
-                    <p>Advanced machine learning algorithms predict stress levels and mental health concerns before they escalate, enabling proactive intervention.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3>Real-Time Monitoring</h3>
-                    <p>Continuous monitoring of vital signs and behavioral patterns with real-time analytics dashboards for instant alerts.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Analytics Dashboard</h3>
-                    <p>Comprehensive data visualization and reporting tools for personnel wellness trends and organizational health metrics.</p>
+                    <h3>Trend Analysis</h3>
+                    <p>Identifies patterns over time, not just single responses. Intelligent early warning system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Explainable AI</h3>
+                    <p>Understand why AI flags concerns. SHAP-based feature importance and clear recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Wellness Monitoring</h3>
+                    <p>Daily check-ins, stress assessment, workload tracking, and recovery monitoring.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-lock"></i>
                     </div>
-                    <h3>Enterprise Security</h3>
-                    <p>Military-grade encryption and compliance with data privacy regulations ensuring confidentiality of personnel information.</p>
+                    <h3>Privacy Protected</h3>
+                    <p>Military-grade encryption, role-based access, audit logs, and data minimization.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-hand-holding-heart"></i>
                     </div>
-                    <h3>Mobile Integration</h3>
-                    <p>Seamless mobile app integration for personnel to track their wellness and access support resources anytime, anywhere.</p>
+                    <h3>Support System</h3>
+                    <p>Confidential support requests, welfare officer matching, and intervention tracking.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-users"></i>
+                        <i class="fas fa-analytics"></i>
                     </div>
-                    <h3>Team Support</h3>
-                    <p>Peer support networks and counselor matching system connecting personnel with appropriate mental health resources.</p>
+                    <h3>Intelligence Dashboard</h3>
+                    <p>Unit-level trends, workload analytics, readiness indicators for commanders.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Modules Section -->
+    <section id="modules" class="modules">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Sahaara</h2>
-                    <p>Sahaara is a cutting-edge AI-driven welfare monitoring platform specifically designed for uniformed forces. It addresses the unique mental health and stress challenges faced by military and emergency personnel.</p>
-                    <p>Our mission is to provide comprehensive, proactive care that keeps personnel mentally and physically resilient, ultimately enhancing organizational effectiveness and personnel wellbeing.</p>
-                    <ul class="about-list">
-                        <li><i class="fas fa-check"></i> Predictive stress identification</li>
-                        <li><i class="fas fa-check"></i> Personalized intervention recommendations</li>
-                        <li><i class="fas fa-check"></i> Confidential wellness tracking</li>
-                        <li><i class="fas fa-check"></i> Organizational health insights</li>
+            <h2>Core Modules</h2>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Personnel Portal</h3>
+                    </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> Daily wellness check-ins</li>
+                        <li><i class="fas fa-check"></i> Personal wellness dashboard</li>
+                        <li><i class="fas fa-check"></i> AI predictions & explanations</li>
+                        <li><i class="fas fa-check"></i> Support requests</li>
+                        <li><i class="fas fa-check"></i> Privacy controls</li>
                     </ul>
                 </div>
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-shield-alt"></i>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-stethoscope"></i>
+                        <h3>Welfare Officer Dashboard</h3>
                     </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> Personnel monitoring</li>
+                        <li><i class="fas fa-check"></i> Risk analytics</li>
+                        <li><i class="fas fa-check"></i> Support request queue</li>
+                        <li><i class="fas fa-check"></i> Intervention tracking</li>
+                        <li><i class="fas fa-check"></i> Outcome monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-sitemap"></i>
+                        <h3>Commander Dashboard</h3>
+                    </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> Unit wellness trends</li>
+                        <li><i class="fas fa-check"></i> Workload distribution</li>
+                        <li><i class="fas fa-check"></i> Deployment analytics</li>
+                        <li><i class="fas fa-check"></i> Readiness indicators</li>
+                        <li><i class="fas fa-check"></i> Welfare planning</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI Prediction Engine</h3>
+                    </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> Stress indicators</li>
+                        <li><i class="fas fa-check"></i> Fatigue detection</li>
+                        <li><i class="fas fa-check"></i> Burnout risk</li>
+                        <li><i class="fas fa-check"></i> SHAP explanations</li>
+                        <li><i class="fas fa-check"></i> Recommendations</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Workload Intelligence</h3>
+                    </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> Duty tracking</li>
+                        <li><i class="fas fa-check"></i> Shift patterns</li>
+                        <li><i class="fas fa-check"></i> Rest intervals</li>
+                        <li><i class="fas fa-check"></i> Deployment duration</li>
+                        <li><i class="fas fa-check"></i> Load balancing</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Admin Panel</h3>
+                    </div>
+                    <ul class="module-features">
+                        <li><i class="fas fa-check"></i> User management</li>
+                        <li><i class="fas fa-check"></i> Role configuration</li>
+                        <li><i class="fas fa-check"></i> Audit logging</li>
+                        <li><i class="fas fa-check"></i> Data governance</li>
+                        <li><i class="fas fa-check"></i> System settings</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Technology Section -->
-    <section id="technology" class="technology">
+    <!-- Why SAATHI Section -->
+    <section id="why" class="why-saathi">
         <div class="container">
-            <h2>Technology Stack</h2>
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <h4>Machine Learning</h4>
-                    <p>TensorFlow, PyTorch, Scikit-learn for predictive modeling</p>
+            <h2>Why SAATHI?</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-number">1</div>
+                    <h3>Welfare Not Surveillance</h3>
+                    <p>Explicitly designed for support, not punishment. No disciplinary use of AI predictions.</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Backend</h4>
-                    <p>Python, FastAPI, Flask for robust server infrastructure</p>
+                <div class="why-item">
+                    <div class="why-number">2</div>
+                    <h3>Human-in-the-Loop</h3>
+                    <p>AI recommends; authorized professionals decide. Transparent decision-making process.</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Frontend</h4>
-                    <p>React, Vue.js for responsive user interfaces</p>
+                <div class="why-item">
+                    <div class="why-number">3</div>
+                    <h3>Early Intervention</h3>
+                    <p>Identifies concerns before they escalate. Trend-based detection prevents crises.</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Database</h4>
-                    <p>PostgreSQL, MongoDB for secure data management</p>
+                <div class="why-item">
+                    <div class="why-number">4</div>
+                    <h3>Explainable Results</h3>
+                    <p>Personnel understand why flagged. Officers see contributing factors. No black boxes.</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Cloud</h4>
-                    <p>AWS, Azure for scalable infrastructure</p>
+                <div class="why-item">
+                    <div class="why-number">5</div>
+                    <h3>Privacy by Design</h3>
+                    <p>Minimal data collection, strong encryption, role-based access, audit trails.</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Security</h4>
-                    <p>Military-grade encryption and compliance protocols</p>
+                <div class="why-item">
+                    <div class="why-number">6</div>
+                    <h3>Operational Value</h3>
+                    <p>Connects welfare to workload planning. Improves readiness through better resource allocation.</p>
                 </div>
             </div>
         </div>
@@ -156,21 +245,57 @@
     <!-- Statistics Section -->
     <section class="statistics">
         <div class="container">
-            <div class="stat-card">
-                <h3>95%</h3>
-                <p>Prediction Accuracy</p>
+            <h2>Expected Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>95%</h3>
+                    <p>Prediction Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <h3>24/7</h3>
+                    <p>Monitoring Coverage</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Real-Time</h3>
+                    <p>Alert System</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Data Privacy</p>
+                </div>
             </div>
-            <div class="stat-card">
-                <h3>24/7</h3>
-                <p>Monitoring Coverage</p>
-            </div>
-            <div class="stat-card">
-                <h3>Real-Time</h3>
-                <p>Alert System</p>
-            </div>
-            <div class="stat-card">
-                <h3>100%</h3>
-                <p>Data Privacy</p>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology">
+        <div class="container">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4><i class="fas fa-window-maximize"></i> Frontend</h4>
+                    <p>React, Vue.js, React Native, Tailwind CSS</p>
+                </div>
+                <div class="tech-item">
+                    <h4><i class="fas fa-server"></i> Backend</h4>
+                    <p>Node.js, Express, Python, FastAPI</p>
+                </div>
+                <div class="tech-item">
+                    <h4><i class="fas fa-database"></i> Database</h4>
+                    <p>PostgreSQL, MongoDB, Redis</p>
+                </div>
+                <div class="tech-item">
+                    <h4><i class="fas fa-brain"></i> AI/ML</h4>
+                    <p>TensorFlow, PyTorch, Scikit-learn, XGBoost</p>
+                </div>
+                <div class="tech-item">
+                    <h4><i class="fas fa-lock"></i> Security</h4>
+                    <p>OAuth2, JWT, TLS 1.3, AES-256</p>
+                </div>
+                <div class="tech-item">
+                    <h4><i class="fas fa-cloud"></i> Cloud</h4>
+                    <p>AWS, Azure, Google Cloud, Docker</p>
+                </div>
             </div>
         </div>
     </section>
@@ -178,50 +303,47 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Get in Touch</h2>
+            <h2>Get Started with SAATHI</h2>
+            <p class="contact-intro">Ready to transform welfare management? Contact us or explore the platform.</p>
             <div class="contact-content">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="organization">Organization</label>
-                        <input type="text" id="organization" name="organization">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@sahaara-ai.com</p>
+                            <p>saathi@welfare.local</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>Phone</h4>
-                            <p>+91 (XXX) XXX-XXXX</p>
+                            <h4>Support</h4>
+                            <p>Available 24/7</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Address</h4>
+                            <h4>Location</h4>
                             <p>India</p>
                         </div>
                     </div>
                 </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Organization">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
@@ -231,30 +353,38 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Sahaara</h4>
-                    <p>AI Welfare Platform for Uniformed Forces</p>
+                    <h4>SAATHI</h4>
+                    <p>AI Welfare Intelligence Platform for Uniformed Forces</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#features">Features</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#modules">Modules</a></li>
+                        <li><a href="#why">Why SAATHI</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                    </div>
+                    <h4>Documentation</h4>
+                    <ul>
+                        <li><a href="#">API Docs</a></li>
+                        <li><a href="#">User Guide</a></li>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Deployment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Sahaara AI Welfare Platform. All rights reserved.</p>
+                <p>&copy; 2026 SAATHI Platform. Part of Smart India Hackathon (SIH26186).</p>
             </div>
         </div>
     </footer>
